@@ -23,7 +23,7 @@
     "@hello-pangea/dnd": "^16.5.0",
     "@langchain/cohere": "^0.0.7",
     "@langchain/community": "0.0.57",
-    "@langchain/pinecone": "^0.0.4",
+    "@langchain/pinecone": "^0.0.8",
     "@next/third-parties": "^14.1.0",
     "@pinecone-database/pinecone": "^2.2.0",
     "@qdrant/js-client-rest": "^1.8.2",

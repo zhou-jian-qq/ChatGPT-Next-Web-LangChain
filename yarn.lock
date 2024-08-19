@@ -1941,7 +1941,7 @@
     zod "^3.22.3"
     zod-to-json-schema "^3.22.5"
 
-"@langchain/core@0.1.63", "@langchain/core@~0.1", "@langchain/core@~0.1.56", "@langchain/core@~0.1.60":
+"@langchain/core@0.1.63", "@langchain/core@>0.2.0 <0.3.0", "@langchain/core@~0.1", "@langchain/core@~0.1.56", "@langchain/core@~0.1.60":
   version "0.1.63"
   resolved "https://registry.yarnpkg.com/@langchain/core/-/core-0.1.63.tgz#33cc48877739e9fdb5885fbd4b16fd08d1597050"
   integrity sha512-+fjyYi8wy6x1P+Ee1RWfIIEyxd9Ee9jksEwvrggPwwI/p45kIDTdYTblXsM13y4mNWTiACyLSdbwnPaxxdoz+w==
@@ -1970,15 +1970,15 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.22.3"
 
-"@langchain/pinecone@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@langchain/pinecone/-/pinecone-0.0.4.tgz#312f3ff4286b1278c47c676d7be5a4f0f5c1409c"
-  integrity sha512-9Rme771vHbRKXHy0IxOFFUyYtJfL+I1LgleF1cSkb2ZxgtOwN7uvh0Cp23WrCzEh8DHVEaRYPSbBC4W3YfqwfA==
+"@langchain/pinecone@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@langchain/pinecone/-/pinecone-0.0.9.tgz#62af901c3cdeccfacfec37b17cc0e97bb39793d3"
+  integrity sha512-zH04Jmwpwa+8+qwGyrVAzpUHQ7u1fVUmTtA42KPzgdZjiW1SLfNgl6LkgdNvFe0t+fmCtP1+HABRqhuMqZRV/A==
   dependencies:
-    "@langchain/core" "~0.1"
-    "@pinecone-database/pinecone" "^2.2.0"
+    "@langchain/core" ">0.2.0 <0.3.0"
+    "@pinecone-database/pinecone" "^3.0.0"
     flat "^5.0.2"
-    uuid "^9.0.0"
+    uuid "^10.0.0"
 
 "@langchain/textsplitters@~0.0.0":
   version "0.0.0"
@@ -2077,6 +2077,16 @@
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@pinecone-database/pinecone/-/pinecone-2.2.0.tgz#f895741756fc66c8b4e0c46eccbd806614879766"
   integrity sha512-qfVs9n5YyTmerIV1GE1u89xF1W3oFSF53STW68Oqyxey0dGq4775cCw8G5pnwoy872uqfh+tMRDME9bcWfinUw==
+  dependencies:
+    "@sinclair/typebox" "^0.29.0"
+    ajv "^8.12.0"
+    cross-fetch "^3.1.5"
+    encoding "^0.1.13"
+
+"@pinecone-database/pinecone@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@pinecone-database/pinecone/-/pinecone-3.0.0.tgz#972bf81dcd123b58aa70dbc506e9131ecc832b1a"
+  integrity sha512-ppBRr9MZRW8U2eww3QU1s5oTa0sXbaHrRJRS8x1++WVUPclcb6T6me/5sv9cLZDvldvsZY26k3fnrEoXLNnPUQ==
   dependencies:
     "@sinclair/typebox" "^0.29.0"
     ajv "^8.12.0"
@@ -8632,6 +8642,11 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
+
+uuid@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-10.0.0.tgz#5a95aa454e6e002725c79055fd42aaba30ca6294"
+  integrity sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==
 
 uuid@^8.3.2:
   version "8.3.2"
